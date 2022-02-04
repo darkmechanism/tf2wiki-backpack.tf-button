@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Wiki Backpack",
+  "version": "1.0",
+  "description": "backpack.tf for tf2 wiki",
+  "permissions": ["tabs", "https://*/*", "http://*/*"],
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://wiki.teamfortress.com/wiki/*"]
+  }]
+}

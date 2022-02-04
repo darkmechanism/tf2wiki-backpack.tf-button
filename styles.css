@@ -1,0 +1,21 @@
+.btn_buynow_backpack, .btn_buynow_backpack span {
+    background: url(https://i.imgur.com/vlneiT4.png) no-repeat;
+    color: #FFF;
+    line-height: 100%;
+    font-size: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_buynow_backpack {
+    background-position: right 0;
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 24px;
+}
+
+.btn_buynow_backpack:hover {
+    background-position: right -24px;
+}
